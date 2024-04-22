@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 2155625182917522526}
   - component: {fileID: 6967445832373128808}
   - component: {fileID: 3714869885544411793}
-  m_Layer: 0
+  - component: {fileID: 287548727747646852}
+  m_Layer: 6
   m_Name: Medical_wash_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,3 +84,17 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &287548727747646852
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3148306918468585037}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4031536294660153652, guid: ebfc1293a6ddc4746be79ca28b06c3bc, type: 3}
