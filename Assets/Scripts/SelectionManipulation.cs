@@ -149,13 +149,13 @@ public class SelectionManipulation : MonoBehaviour
         {
             if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) || OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
             {
-                Vector3 newScale = selectedObject.transform.localScale + Vector3.one * scaleSpeed * Time.deltaTime;
+                Vector3 newScale = selectedObject.transform.localScale + Vector3.one * scaleSpeed;
                 selectedObject.transform.localScale = newScale;
             }
 
             if (OVRInput.GetDown(OVRInput.Button.PrimaryHandTrigger) || OVRInput.GetDown(OVRInput.Button.SecondaryHandTrigger))
             {
-                Vector3 newScale = selectedObject.transform.localScale - Vector3.one * scaleSpeed * Time.deltaTime;
+                Vector3 newScale = selectedObject.transform.localScale - Vector3.one * scaleSpeed;
                 selectedObject.transform.localScale = newScale;
             }
         }
