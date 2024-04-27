@@ -1,4 +1,4 @@
 # CSE165_Project1
-VR travel project /n 
-Bran Zhang /n
+VR travel project  <br />
+Bran Zhang  <br />
 Luke Wang
